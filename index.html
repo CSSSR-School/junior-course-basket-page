@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Корзина</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1 class="title">
+        <a href="#" class="title__link">
+          <img
+            src="img/icon/backspace.svg"
+            width="24"
+            height="24"
+            class="title__icon"
+            alt="back"
+          />
+        </a>
+        Корзина
+      </h1>
+
+      <div class="inner">
+        <div class="goodsList">
+          <div class="goods">
+            <div class="goods__type">
+              В наличии
+            </div>
+
+            <img
+              class="goods__img"
+              src="img/placeholder.jpg"
+              alt="placeholder"
+              width="224"
+              height="200"
+            />
+
+            <div class="goods__name">Название первого товара</div>
+
+            <div class="goods__rating">
+              <img
+                src="img/icon/star.svg"
+                width="16"
+                height="16"
+                alt="star"
+                class="goods__star"
+              />
+              <img
+                src="img/icon/star.svg"
+                width="16"
+                height="16"
+                alt="star"
+                class="goods__star"
+              />
+              <img
+                src="img/icon/star.svg"
+                width="16"
+                height="16"
+                alt="star"
+                class="goods__star"
+              />
+              <img
+                src="img/icon/starHalf.svg"
+                width="16"
+                height="16"
+                alt="star"
+                class="goods__star"
+              />
+              <img
+                src="img/icon/starBorder.svg"
+                width="16"
+                height="16"
+                alt="star"
+                class="goods__star"
+              />
+            </div>
+
+            <div class="goods__prise">
+              23 000 ₽
+            </div>
+
+            <button type="button" class="goods__button button">Убрать</button>
+          </div>
+
+          <div class="goods goods_none">
+            <div class="goods__type goods__type_none">
+              Недоступен
+            </div>
+
+            <img
+              class="goods__img goods__img_none"
+              src="img/placeholder1.jpg"
+              alt="placeholder"
+              width="224"
+              height="200"
+            />
+
+            <div class="goods__name">Название второго товара</div>
+
+            <div class="goods__rating">
+              <img
+                src="img/icon/star.svg"
+                width="16"
+                height="16"
+                alt="star"
+                class="goods__star"
+              />
+              <img
+                src="img/icon/star.svg"
+                width="16"
+                height="16"
+                alt="star"
+                class="goods__star"
+              />
+              <img
+                src="img/icon/star.svg"
+                width="16"
+                height="16"
+                alt="star"
+                class="goods__star"
+              />
+              <img
+                src="img/icon/starHalf.svg"
+                width="16"
+                height="16"
+                alt="star"
+                class="goods__star"
+              />
+              <img
+                src="img/icon/starBorder.svg"
+                width="16"
+                height="16"
+                alt="star"
+                class="goods__star"
+              />
+            </div>
+
+            <div class="goods__prise">
+              23 000 ₽
+            </div>
+
+            <button type="button" class="goods__button button">Убрать</button>
+          </div>
+
+          <div class="goods">
+            <div class="goods__type">
+              В наличии
+            </div>
+
+            <img
+              class="goods__img"
+              src="img/placeholder2.jpg"
+              alt="placeholder"
+              width="224"
+              height="200"
+            />
+
+            <div class="goods__name">Название третьего товара</div>
+
+            <div class="goods__rating">
+              <img
+                src="img/icon/star.svg"
+                width="16"
+                height="16"
+                alt="star"
+                class="goods__star"
+              />
+              <img
+                src="img/icon/star.svg"
+                width="16"
+                height="16"
+                alt="star"
+                class="goods__star"
+              />
+              <img
+                src="img/icon/star.svg"
+                width="16"
+                height="16"
+                alt="star"
+                class="goods__star"
+              />
+              <img
+                src="img/icon/starHalf.svg"
+                width="16"
+                height="16"
+                alt="star"
+                class="goods__star"
+              />
+              <img
+                src="img/icon/starBorder.svg"
+                width="16"
+                height="16"
+                alt="star"
+                class="goods__star"
+              />
+            </div>
+
+            <div class="goods__prise">
+              23 000 ₽
+              <span class="goods__prise_old">23 000 ₽</span>
+            </div>
+
+            <button type="button" class="goods__button button">Убрать</button>
+          </div>
+        </div>
+
+        <div class="cart">
+          <h2 class="cart__title">
+            <img
+              src="img/icon/cart.svg"
+              width="16"
+              height="16"
+              alt="cart"
+              class="cart__icon"
+            />
+            Корзина
+          </h2>
+
+          <div class="cart__amount">
+            Товаров
+            <div class="cart__amount-value"></div>
+          </div>
+          <div class="cart__sum">
+            Всего
+            <div class="cart__sum-value"></div>
+          </div>
+          <button type="button" class="cart__clean button">
+            Очистить корзину
+          </button>
+          <button type="button" class="cart__save button">
+            Сохранить корзину
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
